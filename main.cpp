@@ -6,7 +6,7 @@
 #include "SDL_image.h"
 
 using namespace std;
-Alex
+
 SDL_Texture *LoadTexture(char *filePath, SDL_Renderer *renderTarget) {
   SDL_Texture *texture = NULL;
   SDL_Surface *surface = IMG_Load(filePath);
@@ -108,4 +108,3 @@ int main(int argc, char *argv[])
     SDL_Quit();
     return 0;
 }
-Alex
